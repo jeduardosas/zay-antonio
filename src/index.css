@@ -48,3 +48,12 @@ a{
 .notfound p{
   font-size: 20px;
 }
+
+.banner-img{
+  margin-top: 30px;
+  margin-bottom: -55px;
+  
+}
+.banner-img img{
+  max-width: 100%;
+}

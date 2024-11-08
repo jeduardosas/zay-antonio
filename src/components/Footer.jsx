@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='footer'>
       <div className='footer-div-img'>
         <a target='_blank' href="https://www.facebook.com/monadas.invitaciones">
-          <img className='footer-img' src="/img/logo_footer.png" alt="logo_footer" />
+          <img className='footer-img' src="/img/logo_footer.webp" alt="logo_footer" />
         </a>
       </div>
       <div className='footer-div-text'>

@@ -1,10 +1,14 @@
 /*::::::::: H E A D E R ::::::::::*/
 .header{
+  margin-top: 50px;
   max-width: 100%;
   background-attachment: fixed;
+  display:flex;
+  justify-content:center;
 }
 .header img{
-  width: 100%;
+  width: 90%;
+  margin:0 auto;
 }
 
 /*::::::::: C O N T A D O R ::::::::::*/
@@ -24,8 +28,12 @@
   text-align: center;
   color: #8d5641;
 }
+.contador_imagen{
+  display:flex;
+  justify-content:center;
+}
 .contador_imagen img{
-  width: 100%;
+  width: 60%;
 }
 @media (min-width: 768px) {
     .contador{
@@ -83,7 +91,8 @@
 }
 .datos-padres-padrinos-nombres{
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
 }
 .datos-padres-padrinos-nombres p{
   font-size: 12px;
@@ -236,15 +245,20 @@
   padding: 30px;
   box-sizing: border-box;
 }
+.regalos img{
+  max-width: 100%;
+  margin-bottom: -35px;
+}
 .regalos-vestimenta,
 .regalos-sobres{
   margin-bottom: 50px;
 }
 .regalos-vestimenta-body{
   margin-top: 15px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+}
+.regalos-vestimenta-body span{
+  font-size: 24px;
+  font-weight: bold;
 }
 @media (min-width: 768px) {
     .regalos-vestimenta-body{
@@ -296,6 +310,15 @@
   display: flex;
   align-items: center;
   gap: 20px;
+}
+.regalos-mesa-body a{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:20px ;
+  background-color: #8d5641;
+  color: #f5f0ea;
 }
 @media (min-width: 768px) {
   .regalos-sobres-tittle,
@@ -384,9 +407,7 @@
 /*:::::::::L U G A R E S ::::::::::*/
 .lugares{
   margin-top: 50px;
-  margin-bottom: 50px;
   width: 100%;
-
 }
 .lugares-number{
   width: 100px;

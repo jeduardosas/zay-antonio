@@ -9,7 +9,6 @@ import TimeLine from "../components/TimeLine";
 import Footer from "../components/Footer";
 import '/@/styles/invitacion.css'
 import '/@/styles/modal.css'
-import Slider from "../components/Slider";
 
 //estilos para el modal 
 const customStyles = {
@@ -129,7 +128,7 @@ const Invitacion = () => {
         play && (
           <>
             <section className="header">
-              <img src="./img/1.webp" alt="" />
+              <img src="./img/header.webp" alt="" />
             </section>
 
             <section className="contador centrar">
@@ -141,10 +140,30 @@ const Invitacion = () => {
             </section>
 
             <div className="contador_imagen">
-                <img src="./img/2.webp" alt="imagen_2" />
+                <img src="./img/monograma.webp" alt="imagen_2" />
             </div>
       
             <section className="datos centrar">
+            <section className="datos-padres">
+                <h2 className="datos-padres-tittle">En compañia de nuestros Padres</h2>
+                <div className="datos-padres-papas">
+                  <div className="datos-padres-papas-novia">
+                    <p>{nombre_mama_novia}</p>
+                    <p>{nombre_papa_novia}</p>
+                  </div>
+                  <div className="datos-padres-papas-novio">
+                    <p>{nombre_mama_novio}</p>
+                    <p>{nombre_papa_novio}</p>
+                  </div>
+                </div>
+                <div className="datos-padres-padrinos">
+                  <h3 className="datos-padres-padrinos-tittle">Y nuestros Padrinos</h3>
+                  <div className="datos-padres-padrinos-nombres">
+                    <p>{nombre_madrina}</p>
+                    <p>{nombre_padrino}</p>
+                  </div>
+                </div>
+              </section>
               
               <h2 className="datos-tittle">¡Nos Casamos!</h2>
 
@@ -232,6 +251,10 @@ const Invitacion = () => {
 
             {/*::::::::::R E G A L O S :::::::::: */}
 
+            <div className="banner-img">
+              <img src="./img/2.webp" alt="imagen_2" />
+            </div>
+
             <section className="regalos">
 
               <div className="regalos-vestimenta">
@@ -240,7 +263,7 @@ const Invitacion = () => {
                   <h3>Código de Vestimenta</h3>
                 </div>
                 <div className="regalos-vestimenta-body">
-                  <p>Solo hay una regla de vestimenta en nuestra boda: ¡Nada de blanco!</p>
+                  <p>Solo hay una regla de vestimenta en nuestra boda: <span>¡Nada de blanco!</span></p>
                   <p>Nuestro equipo de seguridad escoltará a los infractores hasta la puerta.</p>
                 </div>
               </div>
@@ -265,15 +288,14 @@ const Invitacion = () => {
                   <a href={regalos_url}>Ir a la mesa de regalos</a>
                 </div>
               </div>
+              <img src="./img/back_2.webp" alt="" />
+            </section>
 
-              
-              
+            
 
-              
+            
 
-              <Slider />
-
-              <section className="lugares">
+            <section className="lugares">
                 <div className="lugares-number">
                   <p>{pases}</p>
                 </div>
@@ -284,13 +306,6 @@ const Invitacion = () => {
 
                 
               </section>
-
-              
-            </section>
-
-            <div className="contador_imagen">
-              <img src="./img/2.webp" alt="imagen_2" />
-            </div>
 
             <section className="confirmacion">
               <div className="confirmacion-item">
