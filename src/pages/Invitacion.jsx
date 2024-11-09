@@ -76,7 +76,7 @@ const Invitacion = () => {
   if (pases === "") {
     return <Navigate to="/notfound" />;
   }
-  if(pases<0 || pases >10){
+  if(pases<1 || pases >10){
     return <Navigate to="/notfound" />
   }
 
