@@ -1,6 +1,5 @@
 /*::::::::: H E A D E R ::::::::::*/
 .header{
-  margin-top: 50px;
   max-width: 100%;
   background-attachment: fixed;
   display:flex;
@@ -245,7 +244,7 @@
   padding: 30px;
   box-sizing: border-box;
 }
-.regalos img{
+.regalos-banner img{
   max-width: 100%;
   margin-bottom: -35px;
 }
@@ -254,7 +253,7 @@
   margin-bottom: 50px;
 }
 .regalos-vestimenta-body{
-  margin-top: 15px;
+  margin-top: 40px;
 }
 .regalos-vestimenta-body span{
   font-size: 24px;
@@ -307,6 +306,7 @@
 .regalos-mesa-tittle,
 .regalos-vestimenta-tittle{
   width: 100%;
+  height:inherit;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -406,18 +406,18 @@
 
 /*:::::::::L U G A R E S ::::::::::*/
 .lugares{
-  margin-top: 50px;
+  margin-top: 10px;
   width: 100%;
 }
 .lugares-number{
   width: 100px;
   margin: 0 auto;
-  border-bottom: solid #f5f0ea thin ;
+  border-bottom: solid #8d5641 thin ;
 }
 .lugares-number p{
   text-align: center;
   font-size: 80px;
-  color:#f5f0ea;
+  color:#8d5641;
 }
 .lugares-text{
   width: 100%;
@@ -429,7 +429,7 @@
   text-transform: capitalize;
   text-align: center;
   font-size: 30px;
-  color: #f5f0ea;
+  color: #8d5641;
   font-style: italic;
 }
 .lugares-text span{

@@ -53,7 +53,7 @@ const data = {
         id:2,
         time:'14:30 Hrs',
         name:'Ceremonia Civil',
-        icon:'recepcion',
+        icon:'votos_boda',
         color:'var(--color_timeline)',
         textColor:'rgb(218 167 88)'
       },
@@ -62,7 +62,7 @@ const data = {
         id:3,
         time:'15:00',
         name:'Recepción',
-        icon:'brindis',
+        icon:'recepcion',
         color:'var(--color_timeline)',
         textColor:'rgb(218 167 88)'
       },
@@ -71,7 +71,7 @@ const data = {
         id:4,
         time:'15:40 Hrs',
         name:'Entrada Novios',
-        icon:'comida',
+        icon:'campana',
         color:'var(--color_timeline)',
         textColor:'rgb(218 167 88)'
       },
@@ -87,7 +87,7 @@ const data = {
         id:6,
         time:'17:00 Hrs',
         name:'Vals Novios',
-        icon:'comida',
+        icon:'dance',
         color:'var(--color_timeline)',
         textColor:'rgb(218 167 88)'
       },
@@ -95,7 +95,7 @@ const data = {
         id:7,
         time:'17:10 Hrs',
         name:'Vals Familiar',
-        icon:'comida',
+        icon:'dance2',
         color:'var(--color_timeline)',
         textColor:'rgb(218 167 88)'
       },
@@ -103,7 +103,7 @@ const data = {
         id:8,
         time:'17:30 Hrs',
         name:'Brindis',
-        icon:'comida',
+        icon:'brindis',
         color:'var(--color_timeline)',
         textColor:'rgb(218 167 88)'
       },
@@ -111,7 +111,7 @@ const data = {
         id:8,
         time:'18:00 Hrs',
         name:'Vivora, Ramo y Liga',
-        icon:'comida',
+        icon:'ramo_novia',
         color:'var(--color_timeline)',
         textColor:'rgb(218 167 88)'
       },
@@ -119,7 +119,7 @@ const data = {
         id:9,
         time:'Hasta Morir',
         name:'Se abre pista',
-        icon:'comida',
+        icon:'musica',
         color:'var(--color_timeline)',
         textColor:'rgb(218 167 88)'
       },

@@ -6,6 +6,7 @@ import Modal from "react-modal";
 import data from "../../data";
 import CountDown from "/@/components/ContDown";
 import TimeLine from "../components/TimeLine";
+import Hoteles from "../components/Hoteles";
 import Footer from "../components/Footer";
 import '/@/styles/invitacion.css'
 import '/@/styles/modal.css'
@@ -58,7 +59,7 @@ const Invitacion = () => {
           regalos_frase,
           regalos_url} = data
 
-  const song = './music/song1.mp3'
+  const song = './music/song.mp3'
 
   
   const [play,setPlay] = useState(false); //estado para manejar la reproduccion del audio
@@ -280,7 +281,7 @@ const Invitacion = () => {
 
               <div className="regalos-mesa">
                 <div className="regalos-mesa-tittle">
-                  <img src="" alt="" />
+                  <img src="./icons/regalo.svg" alt="" />
                   <h3>Mesa de Regalos</h3>
                 </div>
                 <div className="regalos-mesa-body">
@@ -288,7 +289,9 @@ const Invitacion = () => {
                   <a href={regalos_url}>Ir a la mesa de regalos</a>
                 </div>
               </div>
-              <img src="./img/back_2.webp" alt="" />
+              <div className="regalos-banner">
+                <img src="./img/back_2.webp" alt="" />
+              </div>
             </section>
 
             
@@ -333,6 +336,10 @@ const Invitacion = () => {
                 </div>
               </div>
             </section>
+
+            <div className="divHoteles">
+              <Hoteles />
+            </div>
 
             <div className="reproductor">
               <ReactAudioPlayer
