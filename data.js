@@ -66,17 +66,8 @@ const data = {
         color:'var(--color_timeline)',
         textColor:'rgb(218 167 88)'
       },
-
       {
         id:4,
-        time:'15:40 Hrs',
-        name:'Entrada Novios',
-        icon:'campana',
-        color:'var(--color_timeline)',
-        textColor:'rgb(218 167 88)'
-      },
-      {
-        id:5,
         time:'16:00 Hrs',
         name:'Comida',
         icon:'comida',
@@ -84,39 +75,7 @@ const data = {
         textColor:'rgb(218 167 88)'
       },
       {
-        id:6,
-        time:'17:00 Hrs',
-        name:'Vals Novios',
-        icon:'dance',
-        color:'var(--color_timeline)',
-        textColor:'rgb(218 167 88)'
-      },
-      {
-        id:7,
-        time:'17:10 Hrs',
-        name:'Vals Familiar',
-        icon:'dance2',
-        color:'var(--color_timeline)',
-        textColor:'rgb(218 167 88)'
-      },
-      {
-        id:8,
-        time:'17:30 Hrs',
-        name:'Brindis',
-        icon:'brindis',
-        color:'var(--color_timeline)',
-        textColor:'rgb(218 167 88)'
-      },
-      {
-        id:8,
-        time:'18:00 Hrs',
-        name:'Vivora, Ramo y Liga',
-        icon:'ramo_novia',
-        color:'var(--color_timeline)',
-        textColor:'rgb(218 167 88)'
-      },
-      {
-        id:9,
+        id:5,
         time:'Hasta Morir',
         name:'Se abre pista',
         icon:'musica',
@@ -124,7 +83,29 @@ const data = {
         textColor:'rgb(218 167 88)'
       },
     ]
-  }
+  },
+  hoteles:[
+    {
+      nombre:'Rinconada Hotel Boutiqye',
+      direccion:'Gral. Baltazar R. Leyva Manzilla, 19',
+      direccion_colonia:'centro, Iguala de la Independencia, Gro',
+      telefono:'7333332158',
+      ubicacion:'https://maps.app.goo.gl/GK7ARLS9ESHJT2pa8'
+    },
+    {
+      nombre:'Hotel Real 1900',
+      direccion:'Miguel Hidalgo,6',
+      direccion_colonia:'Centro, Iguala de la Independencia, Gro.',
+      telefono:'7331101106',
+      ubicacion:'https://maps.app.goo.gl/bcRQiHRzWotJcCNe9'
+    },
+    {
+      nombre:'Gran Plaza Hotel Centro Historico',
+      direccion:'Miguel Hidalgo, 7',
+      direccion_colonia:'Centro, Iguala de la Independencia, Gro.',
+      ubicacion:'https://maps.app.goo.gl/KpSXNAmm8gdbRCeB6'
+    }
+  ]
 }
 
 export default data

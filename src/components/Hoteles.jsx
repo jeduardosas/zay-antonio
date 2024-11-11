@@ -1,4 +1,7 @@
-import '../styles/hoteles.css'
+import data from '../../data'
+import '../styles/hoteles.css';
+
+const {hoteles} = data;
 
 const Hoteles = () => {
   return (
@@ -6,7 +9,24 @@ const Hoteles = () => {
       <h2 className='hoteles-title'>Sugerencias de Hospedaje</h2>
 
       <div className='div-hoteles'>
-        <div className='hotel-card sombra'>
+
+        {hoteles.map((hotel)=>(
+          <div className='hotel-card sombra'>
+            <p className='hotel-card_title'>{hotel.nombre}</p>
+            <div className='hotel-card_section'>
+              <p>{hotel.direccion}</p>
+              <p>{hotel.direccion_colonia}</p>
+              <p>{hotel.telefono}</p>
+            </div>
+            <div className='hotel-card-buton centrar'>
+              <button>
+                <a href={`${hotel.ubicacion}`}>Ver Ubicación</a>
+              </button>
+            </div>
+          </div>
+        ))}
+
+        {/* <div className='hotel-card sombra'>
             <p className='hotel-card_title'>Rinconada Hotel Boutique</p>
             <div className='hotel-card_section'>
               <p> Gral. Baltazar R. Leyva Manzilla 19</p>
@@ -18,20 +38,6 @@ const Hoteles = () => {
                 <a href="https://maps.app.goo.gl/GK7ARLS9ESHJT2pa8">Ver Ubicación</a>
               </button>
             </div>
-          </div>
-
-        <div className='hotel-card sombra'>
-          <p className='hotel-card_title'>Hotel Ricarlo</p>
-          <div className='hotel-card_section'>
-            <p> Periférico Oriente 13</p>
-            <p>Iguala de la independencia, Gro</p>
-            <p>7331102516</p>
-          </div>
-          <div className='hotel-card-buton centrar'>
-            <button>
-              <a href="https://maps.app.goo.gl/poiUABi1Y5bZ59G5A">Ver Ubicación</a>
-            </button>
-          </div>
         </div>
 
         <div className='hotel-card sombra'>
@@ -60,7 +66,7 @@ const Hoteles = () => {
               <a href="https://maps.app.goo.gl/KpSXNAmm8gdbRCeB6">Ver Ubicación</a>
             </button>
           </div>
-        </div>
+        </div> */}
 
         
 
