@@ -219,6 +219,32 @@ const Invitacion = () => {
               <div className="datos-item">
                 <div className="datos-item_tittle">
                   <div className="datos-item_tittle-icon">
+                    <img src="./icons/votos_boda.svg" alt="" />
+                  </div>
+                  <div className="datos-item_tittle-tittle">
+                    <p>Ceremonia Civil</p>
+                  </div>
+                </div>
+
+                <div className="datos-item_body">
+                  <div 
+                    style={
+                            {
+                              marginLeft:'15px',
+                              paddingBottom:'10px'
+                            }} 
+                    className="datos-item_body-hn">
+                    <p className="datos-item_body-hn-h">14:30 hrs.</p>
+                    <p className="datos-item_body-hn-n">{recepcion_lugar}</p>
+                  </div>
+                  
+                </div>
+                
+              </div> {/*::::::::::F I N   D E   I T E M  :::::::::: */}
+
+              <div className="datos-item">
+                <div className="datos-item_tittle">
+                  <div className="datos-item_tittle-icon">
                     <img src="./icons/recepcion.svg" alt="" />
                   </div>
                   <div className="datos-item_tittle-tittle">
@@ -245,36 +271,13 @@ const Invitacion = () => {
                 </div>
                 
               </div> {/*::::::::::F I N   D E   I T E M  :::::::::: */}
-              <div className="datos-item">
-                <div className="datos-item_tittle">
-                  <div className="datos-item_tittle-icon">
-                    <img src="./icons/votos_boda.svg" alt="" />
-                  </div>
-                  <div className="datos-item_tittle-tittle">
-                    <p>Ceremonia Civil</p>
-                  </div>
-                </div>
-
-                <div className="datos-item_body">
-                  <div 
-                    style={
-                            {
-                              display:'flex',
-                              flexDirection:'column',
-                              alignItems:'center',
-                              gap:'5px',
-                              paddingBottom:'10px'
-                            }} 
-                    className="datos-item_body-hn">
-                    <p className="datos-item_body-hn-h">14:30 hrs.</p>
-                    <p className="datos-item_body-hn-n">{recepcion_lugar}</p>
-                  </div>
-                  
-                </div>
-                
-              </div> {/*::::::::::F I N   D E   I T E M  :::::::::: */}
+              
 
             </section>
+
+            <div className="regalos-banner-2">
+              <img src="./img/flowers.webp" alt="" />
+            </div>
 
             {/*::::::::::T I M E L I N E:::::::::: */}
             <TimeLine />
@@ -346,7 +349,7 @@ const Invitacion = () => {
                   <h3>Confirmación</h3>
                 </div>
                 <div className="confirmacion-item-body">
-                  <p>Confirma tu asistencia aquí</p>
+                  <p>Clic aquí para confirmar tu asistencia</p>
                   <div className="confirmacion-item-body-items">
                     <div className="confirmacion-item-body-items-novia">
                       <img src="./icons/novia.svg" alt="icon_novia" />

@@ -25,7 +25,7 @@
   font-size: 16px;
   font-style: italic;
   text-align: center;
-  color: #8d5641;
+  color: #641226;
 }
 .contador_imagen{
   display:flex;
@@ -163,7 +163,7 @@
   font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 4px;
-  color:#8d5641;
+  color:#641226;
   text-align:center;
 }
 .datos-item{
@@ -230,7 +230,7 @@
   padding: 10px;
   border-top-right-radius: 20px;
   border-bottom-left-radius:20px ;
-  background-color: #8d5641;
+  background-color: #641226;
 }
 .datos-item-fotter-button a{
   color: #f5f0ea;
@@ -285,18 +285,7 @@
   height: 30px;
   border-radius: 100%;
 }
-.regalos-vestimenta-body-colors_color1{
-  background-color: #626047;
-}
-.regalos-vestimenta-body-colors_color2{
-  background-color: #8d5641;
-}
-.regalos-vestimenta-body-colors_color3{
-  background-color: #c56f4e;
-}
-.regalos-vestimenta-body-colors_color4{
-  background-color: #c4917c;
-}
+
 .regalos-sobres,
 .regalos-mesa,
 .regalos-vestimenta{
@@ -318,7 +307,7 @@
   padding: 8px;
   border-top-right-radius: 20px;
   border-bottom-left-radius:20px ;
-  background-color: #8d5641;
+  background-color: #641226;
   color: #f5f0ea;
 }
 @media (min-width: 768px) {
@@ -336,7 +325,7 @@
 .regalos-sobres-tittle h3,
 .regalos-mesa-tittle h3,
 .regalos-vestimenta-tittle h3{
-  color: #8d5641;
+  color: #641226;
   letter-spacing: 2px;
   font-style: italic;
 }
@@ -391,6 +380,14 @@
   color: var(--color_principal);
   font-family: var(--fuenteSecundaria);
 }
+.regalos-banner-2{
+  display:flex;
+  justify-content: center;
+}
+
+.regalos-banner-2 img{
+  max-width: 30%;
+}
 
 /*:::::::::G A L E R I A ::::::::::*/
 .galeria{
@@ -400,7 +397,7 @@
   margin-bottom: 20px;
   text-align: center;
   font-size: 30px;
-  color:#8d5641;
+  color:#641226;
   letter-spacing: 4px;
   text-transform: uppercase;
 }
@@ -413,12 +410,12 @@
 .lugares-number{
   width: 100px;
   margin: 0 auto;
-  border-bottom: solid #8d5641 thin ;
+  border-bottom: solid #641226 thin ;
 }
 .lugares-number p{
   text-align: center;
   font-size: 80px;
-  color:#8d5641;
+  color:#641226;
 }
 .lugares-text{
   width: 100%;
@@ -430,7 +427,7 @@
   text-transform: capitalize;
   text-align: center;
   font-size: 30px;
-  color: #8d5641;
+  color: #641226;
   font-style: italic;
 }
 .lugares-text span{
@@ -513,7 +510,7 @@
   padding: 10px;
   border-top-right-radius: 20px;
   border-bottom-left-radius:20px ;
-  background-color:#8d5641;
+  background-color:#641226;
 }
 .confirmacion-item-body-items-novia a,
 .confirmacion-item-body-items-novio a{
